@@ -1,0 +1,14 @@
+<ion-item>
+  <ion-icon color="dark" class="icon-input" src="{{ icon }}" aria-hidden="true"></ion-icon>
+  <ion-label position="stacked">{{ to.label }} <span *ngIf="to.required">*</span> </ion-label>
+  <ion-input [formControl]="formControl" [formlyAttributes]="field"></ion-input>
+</ion-item>
+<!--ion-item lines="none" *ngIf="showError">
+  <ion-label>
+    <ion-text color="danger">
+      <p>
+        <formly-validation-message [field]="field"></formly-validation-message>
+      </p>
+    </ion-text>
+  </ion-label>
+</ion-item-->

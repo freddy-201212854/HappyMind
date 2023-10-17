@@ -1,0 +1,282 @@
+.container-image {
+  width: 100%;
+  height: 172px;
+  border-radius: 8px;
+  position: relative;
+}
+.image {
+  width: 100%;
+  height: 172px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blur-image {
+  filter: blur(6px);
+  position: absolute;
+  z-index: -1;
+  bottom: -16px;
+  border-radius: 36px;
+}
+
+.preview-images {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 52px;
+  .preview-image {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.content-store {
+  margin-top: 24px;
+  .content-title {
+    display: flex;
+    .tilte-store {
+      font-size: 22px;
+      font-weight: bold;
+      width: 80%;
+    }
+
+    .rating {
+      display: flex;
+      ion-icon {
+        font-size: 24px;
+        width: 42px;
+      }
+      .number-rate {
+        font-size: 18px;
+        font-weight: bold;
+        color: var(--ion-color-secondary);
+      }
+    }
+  }
+}
+
+.description-store {
+  font-size: 13px;
+  text-align: justify;
+}
+
+.cuality-store {
+  margin-top: 8px;
+  .schedules {
+    display: flex;
+    ion-icon {
+      font-size: 26px;
+      width: 60px;
+    }
+
+    .schedule {
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .content-schedule:nth-child(n + 2) {
+      margin-top: 4px;
+    }
+
+    .day {
+      color: var(--ion-color-primary);
+    }
+
+    .hours {
+      color: var(--ion-color-secondary);
+    }
+  }
+}
+
+.location {
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 12px;
+  width: 100%;
+  height: 172px;
+  overflow: hidden;
+  .location-store {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.content-options-location {
+  .title-location {
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+  .options-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  .option-location {
+    width: 42px;
+    height: 42px;
+    margin-right: 16px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 24px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.content-categories {
+  margin-top: 12px;
+  .content-category {
+    background-color: red;
+    border-radius: 16px;
+  }
+  p {
+    position: relative;
+    height: 48px;
+    width: 100%;
+    ion-icon {
+      font-size: 34px;
+    }
+
+    .title-category {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      height: 22px;
+      margin-left: 12px;
+    }
+  }
+}
+
+.tag_1 {
+  color: white;
+  font-size: 16px;
+  background-color: Crimson;
+  border: 4px solid Crimson;
+  border-radius: 18px;
+}
+
+.tag_2 {
+  color: white;
+  font-size: 16px;
+  background-color: DarkTurquoise;
+  border: 4px solid DarkTurquoise;
+  border-radius: 18px;
+}
+
+.tag_3 {
+  color: white;
+  font-size: 16px;
+  background-color: MediumSeaGreen;
+  border: 4px solid MediumSeaGreen;
+  border-radius: 18px;
+}
+
+.tag_4 {
+  color: white;
+  font-size: 16px;
+  background-color: SteelBlue;
+  border: 4px solid SteelBlue;
+  border-radius: 18px;
+}
+
+.tag_5 {
+  color: white;
+  font-size: 16px;
+  background-color: Orange;
+  border: 4px solid Orange;
+  border-radius: 18px;
+}
+
+.tag_6 {
+  color: white;
+  font-size: 16px;
+  background-color: Plum;
+  border: 4px solid Plum;
+  border-radius: 18px;
+}
+
+.tag_7 {
+  color: white;
+  font-size: 16px;
+  background-color: BurlyWood;
+  border: 4px solid BurlyWood;
+  border-radius: 18px;
+}
+
+.tag_8 {
+  color: white;
+  font-size: 16px;
+  background-color: MediumPurple;
+  border: 4px solid MediumPurple;
+  border-radius: 18px;
+}
+
+.tag_9 {
+  color: white;
+  font-size: 16px;
+  background-color: HotPink;
+  border: 4px solid HotPink;
+  border-radius: 18px;
+}
+
+.tag_10 {
+  color: white;
+  font-size: 16px;
+  background-color: Teal;
+  border: 4px solid Teal;
+  border-radius: 18px;
+}
+
+.tag_11 {
+  color: white;
+  font-size: 16px;
+  background-color: RoyalBlue;
+  border: 4px solid RoyalBlue;
+  border-radius: 18px;
+}
+
+.tag_12 {
+  color: white;
+  font-size: 16px;
+  background-color: DarkCyan;
+  border: 4px solid DarkCyan;
+  border-radius: 18px;
+}
+
+.tag_13 {
+  color: white;
+  font-size: 16px;
+  background-color: MediumVioletRed;
+  border: 4px solid MediumVioletRed;
+  border-radius: 18px;
+}
+
+.tag_14 {
+  color: white;
+  font-size: 16px;
+  background-color: MediumPurple;
+  border: 4px solid MediumPurple;
+  border-radius: 18px;
+}
+
+.tag_15 {
+  color: white;
+  font-size: 16px;
+  background-color: MediumOrchid;
+  border: 4px solid MediumOrchid;
+  border-radius: 18px;
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "key": "name",
+    "type": "textInput",
+    "templateOptions": {
+      "label": "Full Name",
+      "type": "textInput",
+      "labelPosition": "floating",
+      "required": true,
+      "appearance": "outline",
+      "icon": "assets/icon/general/username.svg"
+    },
+    "validators": {
+      "validation": ["nameValidator"]
+    }
+  },
+  {
+    "key": "username",
+    "type": "textInput",
+    "templateOptions": {
+      "label": "Username",
+      "type": "textInput",
+      "labelPosition": "floating",
+      "required": true,
+      "icon": "assets/icon/general/username.svg"
+    }
+  },
+  {
+    "validators": {
+      "validation": [
+        { "name": "fieldMatch", "options": { "errorPath": "passwordConfirm" } }
+      ]
+    },
+    "fieldGroup": [
+      {
+        "key": "password",
+        "type": "password",
+        "templateOptions": {
+          "type": "password",
+          "labelPosition": "floating",
+          "label": "Password",
+          "required": true
+        },
+        "validators": {
+          "validation": ["passwordValidator"]
+        }
+      },
+      {
+        "key": "passwordConfirm",
+        "type": "password",
+        "templateOptions": {
+          "type": "password",
+          "labelPosition": "floating",
+          "label": "Confirm password",
+          "required": true
+        }
+      }
+    ]
+  }
+]

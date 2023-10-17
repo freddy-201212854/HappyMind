@@ -1,0 +1,42 @@
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="header-view">
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="">
+      </div>
+      <div class="welcome">Login to HappyMind</div>
+      <div class="welcome-subtitle">We're happy to see you back again!</div>
+    </div>
+
+    <div class="content-view">
+      <form [formGroup]="form">
+        <formly-form [model]="model" [fields]="fields" [options]="options" [form]="form"></formly-form>
+        <ion-button shape="round" class="login" color="primary" expand="full" (click)="logIn()"> Login </ion-button>
+        <div class="remember-options">
+          <div class="remember-password">
+            <ion-button class="forgotten" color="dark" fill="clear">Forgotten password</ion-button>
+          </div>
+        </div>
+        <div id="or">Or Login with</div>
+        <div class="login-with-social">
+          <ion-button shape="round" class="facebook" color="medium">
+            <ion-icon src="assets/icon/social/facebook.svg"></ion-icon>
+          </ion-button>
+          <ion-button shape="round" class="google" color="medium">
+            <ion-icon src="assets/icon/social/google.svg"></ion-icon>
+          </ion-button>
+
+          <ion-button shape="round" class="apple" color="medium">
+            <ion-icon src="assets/icon/social/apple.svg"></ion-icon>
+          </ion-button>
+        </div>
+
+        <div class="dont-have-account">
+          <div class="title">Don't have account?</div>
+          <ion-button fill="clear">Sign Up</ion-button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</ion-content>

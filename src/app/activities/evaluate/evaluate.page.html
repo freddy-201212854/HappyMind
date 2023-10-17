@@ -1,0 +1,22 @@
+<app-header></app-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="description-evaluate-container">
+      <div class="icon-help">
+        <ion-icon color="primary" class="help" src="assets/icon/general/help.svg"></ion-icon>
+      </div>
+      <div class="text-evaluate">
+        En esta evaluación recopilaremos información detallada acerca de tu mente, tus emociones y tu comportamiento.
+        Este proceso se lleva a cabo utilizando un breve cuestionarios y con inteligencia artificial te ayudaremos
+        con el fin de comprender de manera integral te sientes.
+      </div>
+    </div>
+    <div class="content-view">
+      <form [formGroup]="form">
+        <formly-form [model]="model" [fields]="fields" [options]="options" [form]="form"></formly-form>
+        <ion-button shape="round" class="login" color="primary" expand="full" (click)="logIn()"> Evaluate </ion-button>
+      </form>
+    </div>
+  </div>
+</ion-content>

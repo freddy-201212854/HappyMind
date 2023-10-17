@@ -1,0 +1,20 @@
+<app-header [showTitle]="false" [isReturnView]="true" backPage="/login"></app-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="header-view">
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="">
+      </div>
+      <div class="welcome">Register to HappyMind</div>
+    </div>
+
+    <div class="content-view">
+      <form [formGroup]="form">
+        <formly-form [model]="model" [fields]="fields" [options]="options" [form]="form"></formly-form>
+        <ion-button shape="round" class="login" color="primary" expand="full" (click)="logIn()"> Register </ion-button>
+      </form>
+    </div>
+  </div>
+
+</ion-content>

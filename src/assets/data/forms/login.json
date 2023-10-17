@@ -1,0 +1,26 @@
+[
+  {
+    "key": "username",
+    "type": "textInput",
+    "templateOptions": {
+      "label": "Username",
+      "type": "textInput",
+      "labelPosition": "stacked",
+      "required": true,
+      "icon": "assets/icon/general/username.svg"
+    }
+  },
+  {
+    "key": "password",
+    "type": "password",
+    "templateOptions": {
+      "type": "password",
+      "labelPosition": "stacked",
+      "label": "Password",
+      "required": true
+    },
+    "validators": {
+      "validation": ["passwordValidator"]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+.search {
+  ion-icon.search {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+  }
+
+  ion-icon.filter {
+    position: absolute;
+    right: 16px;
+    bottom: 8px;
+    z-index: 9999;
+  }
+}

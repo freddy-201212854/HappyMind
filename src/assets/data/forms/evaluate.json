@@ -1,0 +1,78 @@
+[
+  {
+    "key": "age",
+    "type": "textInput",
+    "templateOptions": {
+      "label": "¿Que edad tienes?",
+      "type": "textInput",
+      "labelPosition": "floating",
+      "required": true,
+      "appearance": "outline",
+      "icon": "assets/icon/general/number.svg"
+    },
+    "validators": {
+      "validation": ["nameValidator"]
+    }
+  },
+  {
+    "key": "weight",
+    "type": "textInput",
+    "templateOptions": {
+      "label": "¿Que peso tienes?",
+      "type": "textInput",
+      "labelPosition": "floating",
+      "required": true,
+      "icon": "assets/icon/general/weight.svg"
+    }
+  },
+  {
+    "key": "weight",
+    "type": "textInput",
+    "templateOptions": {
+      "label": "¿Que peso estatura tienes?",
+      "type": "textInput",
+      "labelPosition": "floating",
+      "required": true,
+      "icon": "assets/icon/general/height.svg"
+    }
+  },
+  {
+    "key": "symptoms",
+    "type": "select",
+    "templateOptions": {
+      "type": "select",
+      "label": "¿Que sintomas tienes?",
+      "required": true,
+      "multiple": true,
+      "name": "gender",
+      "options": [
+        { "value": "Insomnio", "label": "iInsomnion" },
+        { "value": "Ansiedad", "label": "Ansiedad" },
+        { "value": "Estres", "label": "Estres" },
+        { "value": "Ira", "label": "Ira" }
+      ]
+    }
+  },
+  {
+    "key": "weight",
+    "type": "textInput",
+    "templateOptions": {
+      "label": "¿Cuanto tiempo haz estado con ansiedad?",
+      "type": "textInput",
+      "labelPosition": "floating",
+      "required": true,
+      "icon": "assets/icon/general/time.svg"
+    }
+  },
+  {
+    "key": "weight",
+    "type": "textInput",
+    "templateOptions": {
+      "label": "¿Te encuentras tomando algún medicamente actualmente?",
+      "type": "textInput",
+      "labelPosition": "floating",
+      "required": true,
+      "icon": "assets/icon/general/medicine.svg"
+    }
+  }
+]

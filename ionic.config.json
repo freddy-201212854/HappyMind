@@ -1,0 +1,7 @@
+{
+  "name": "autoCareVNext",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
