@@ -34,6 +34,14 @@ const routes: Routes = [
   {
     path: 'evaluate',
     loadChildren: () => import('./activities/evaluate/evaluate.module').then( m => m.EvaluatePageModule)
+  },
+  {
+    path: 'contact-with-doctor',
+    loadChildren: () => import('./access/contact-with-doctor/contact-with-doctor.module').then( m => m.ContactWithDoctorPageModule)
+  },
+  {
+    path: 'resources',
+    loadChildren: () => import('./resources/resources.module').then( m => m.ResourcesPageModule)
   }
 ];
 
